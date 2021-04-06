@@ -5,6 +5,57 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    nextar:[
+      "https://iili.io/q40ofp.md.png",
+      "https://iili.io/q40CsR.md.png",
+      "https://iili.io/q402J1.md.png",
+      "https://iili.io/q40x0N.md.png",
+      "https://iili.io/q40TJt.md.png",
+      "https://iili.io/q40u5X.md.png"
+    ],
+    kisspray:[
+      "https://iili.io/qOLlTl.md.png",
+      "https://iili.io/qOZHf1.md.png",
+      "https://iili.io/qOZF5J.md.png",
+      "https://iili.io/qOZKOv.md.png",
+      "https://iili.io/qOZCWN.md.png",
+      "https://iili.io/qOZxft.md.png",
+      "https://iili.io/qOZz0X.md.png",
+      "https://iili.io/qOZuJs.md.png",
+      "https://iili.io/qOZA5G.md.png",
+      "https://iili.io/qOtoTx.md.png",
+      "https://iili.io/qOtxhQ.md.png",
+      "https://iili.io/qODKnp.md.png",
+      "https://iili.io/qODrVp.md.png",
+      "https://iili.io/qObfbj.md.png",
+      "https://iili.io/qObKOb.md.png",
+      "https://iili.io/qObF5u.md.png",
+      "https://iili.io/qObD21.md.png"
+    ],
+    momogi:[
+      "https://iili.io/qOpuDJ.md.png",
+      "https://iili.io/qOpTNa.md.png",
+      "https://iili.io/qOpOU7.md.png",
+      "https://iili.io/qOpsUP.md.png",
+      "https://iili.io/qOprWx.md.png",
+      "https://iili.io/qOyF5X.md.png"
+    ],
+    UMKM:[
+      "https://iili.io/qOyaXj.md.png",
+      "https://iili.io/qOycLx.md.png",
+      "https://iili.io/qOy0qQ.md.png",
+      "https://iili.io/qOy11V.md.png",
+      "https://iili.io/qOyMdP.md.png",
+      "https://iili.io/qOyV71.md.png",
+      "https://iili.io/qOyWkF.md.png",
+      "https://iili.io/qOyXmg.md.png",
+      "https://iili.io/qOyNLv.md.png",
+      "https://iili.io/qOyeBR.md.png",
+      "https://iili.io/qOyk1p.md.png",
+      "https://iili.io/qOyPhG.md.png",
+      "https://iili.io/qOyLB4.md.png",
+      "https://iili.io/qOybY7.md.png"
+    ],
     writing:'/Writing'
     ,
     Porto: [{
@@ -80,7 +131,7 @@ SearchPost:[
   {
     id:2,
     title:'Design',
-    link:'www.instagtam.com/the.2000j',
+    link:'/design',
     image:'../assets/BNW 7 1.png',
     category:'Sometimes, i got many creative ideas in my mind and i don’t know how to use it'
   },

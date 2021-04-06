@@ -19,8 +19,6 @@
     </div>
 
     
-      
-  
 </template>
 <script>
 export default {
@@ -39,6 +37,7 @@ export default {
         display: flex;
         flex-direction: column;
         margin: 35px 65px;
+        margin-top: 50px;
         transition: all 0.5s ease;
     }
 
@@ -46,8 +45,8 @@ export default {
 
       .portofolio-card{
         align-self: center;
-        width: 250px;
-        height: 252px;
+        width: 166px;
+        height: 164px;
         border: 1px solid #fff !important;
         border-radius: 20px !important;
         -webkit-box-shadow: -1px 3px 12px -2px rgba(255,255,255,1);
@@ -75,16 +74,9 @@ export default {
         font-weight: bold;
         margin-top: 25px;
     }
-
-    @media only screen and (max-width:1440px){
-        .portofolio-card{
-        width: 156px;
-        height: 154px;
+    .v-btn.v-btn--icon.v-btn--round.theme--dark.v-size--default{
+        position: relative;
+        bottom: 60px;
     }
-
-
-
-    }
-
 
 </style>

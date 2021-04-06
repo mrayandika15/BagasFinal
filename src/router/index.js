@@ -62,6 +62,7 @@ const routes = [{
     name:'Writing',
     component:()=>import('../views/Writing.vue')
   },
+
 ]
 
 const router = new VueRouter({

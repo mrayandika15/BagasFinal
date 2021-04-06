@@ -103,7 +103,7 @@ export default {
     },
         gotoLink() {
         if (this.filteredPost[this.highlightedIndex]) {
-            window.location = this.filteredPost[this.highlightedIndex].link
+            this.$router.push(this.filteredPost[this.highlightedIndex].link) 
         }
         }
     },
