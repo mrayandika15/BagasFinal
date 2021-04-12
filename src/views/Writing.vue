@@ -53,7 +53,7 @@
     overflow: hidden;
     }
     .BlogContainer{
-        margin-top: 160px;
+        margin-top: 100px;
     }
 
     .insideBlogContainer{
