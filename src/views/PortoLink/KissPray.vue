@@ -35,7 +35,7 @@
             <div class="container__text">
               <div>
                 <div class="d-flex TextContainer">
-                  <h2 class="white--text">KISSPRAY</h2>
+                  <h2 class="white--text">KISPRAY</h2>
                   <h2 class="orange--text ml-2">Campaign</h2>
                 </div>
                 <div class="TextDesc">
