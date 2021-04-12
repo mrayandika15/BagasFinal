@@ -9,10 +9,7 @@
                 <v-col
                 class="insideBlogContainer"
                 >
-                <v-img
-                src="../assets/BANNER PUTIH-01 1.png"
-                class="logoImage"
-                ></v-img>
+                <img src="../assets/BANNER PUTIH-01 1.png" alt="" class="logoImage">
                 <div class="DescBlog ml-10">
                     <p>I barely talk though i have many things on my mind. Sometimes it's hard to say it out loud, writings is one of the media i can use to implied my thoughts. But it's all about my destitute ideas purpose. So, don't expect too much.</p>
 
@@ -20,7 +17,6 @@
                 color="#FFC126"
                   rounded 
                   class="btn-portofolio mt-2"
-                  href="http://www.bagasema.com/"
                   >Read Here</v-btn>
                 </div>
                 </v-col>
@@ -63,7 +59,6 @@
     .insideBlogContainer{
         display: flex;
         flex-direction: column; 
-        justify-content: center;
         align-items: center;
     }
     .DescBlog{
@@ -72,8 +67,7 @@
         flex-direction: column;
         position: relative;
         bottom: 60px;
-        top: 1px;
-    
+        right: 20px;
     }
     .DescBlog p{
         width: 497px;
@@ -83,8 +77,8 @@
     }
 
     .logoImage{
-        width:775px ; 
-        height:435px ;
+        width:775px !important; 
+        height:435px !important ;
     }
 
     .btn-portofolio{
@@ -92,35 +86,13 @@
     font-weight: bolder !important;
     font-size: 15px;
     color: #000000 !important;
-    width: 20%;
+    width: 106px !important;
     }
 
     .btn-portofolio:hover{
     transform: scale(1.1);
     }
     
-@media screen and (max-width:1440px) {
-    .logoImage{
-        width:655px ; 
-        height:315px ;
-    }
-    .btn-portofolio{
-    font-size: 15px;
-    width: 28%;
-    height: 12% !important;
-    bottom: 50px;
-    right: 5px;
-    }
-    .DescBlog{
-        right: 35px;
-        bottom: 45px;
-    }
-    .DescBlog p{
-        width: 497px;
-        height:207px ;
-        font-size: 20px;
-    }
 
-}
     
 </style>

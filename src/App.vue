@@ -20,6 +20,9 @@
     data: () => ({
       //
     }),
+    mounted() {
+      document.title = 'Bagas - Portofolio'
+    },
   };
 </script>
 

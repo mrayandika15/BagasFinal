@@ -15,13 +15,14 @@
  Portofolio
  </v-btn>
    
-    
-   
- 
- 
      <v-spacer></v-spacer>
      
-       <img src="../assets/LOGO PUTIH-01 1.png" alt="" class="logoPutih">
+       <img src="../assets/LOGO PUTIH-01 1.png"
+        alt="" 
+        class="logoPutih"
+        width="64px"
+        height="64px"
+        >
  
      <v-spacer></v-spacer>
     
