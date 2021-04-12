@@ -35,7 +35,7 @@
                    outlined
                    fab
                    class="hove-effect"
-                   href="https://www.instagram.com/bagas_ma/"
+                   @click="LinkInstagram()"
                    >
                         <v-icon>mdi-instagram</v-icon>
                    </v-btn>
@@ -48,7 +48,7 @@
             outlined
             fab
             class="hove-effect"
-            href="https://www.youtube.com/channel/UCym3WTZJEGiu8TV9tRZXDGA"
+            @click="LinkYoutube()"
             >
                  <v-icon>mdi-youtube</v-icon>
             </v-btn>
@@ -62,7 +62,7 @@
             outlined
             fab
             class="hove-effect"
-            href="https://www.linkedin.com/in/bagasema/"
+            @click="LinkLinkedIN()"
             >
                  <v-icon>mdi-linkedin</v-icon>
             </v-btn>
@@ -76,7 +76,7 @@
             outlined
             fab
             class="hove-effect"
-            href="https://wa.me/082219727509"
+            @click="LinkWA()"
             >
                  <v-icon>mdi-whatsapp</v-icon>
             </v-btn>
@@ -110,7 +110,21 @@
         components:{
             profileNav,
            
-        }
+        },
+        methods: {
+            LinkInstagram:function(){
+                window.open("https://www.instagram.com/bagas_ma/")
+            },
+            LinkYoutube:function(){
+                window.open("https://www.youtube.com/channel/UCym3WTZJEGiu8TV9tRZXDGA")
+            },
+            LinkWA:function(){
+                window.open("https://wa.me/082219727509")
+            },
+            LinkLinkedIN:function(){
+                window.open("https://www.linkedin.com/in/bagasema/")
+            }
+        },
 
     }
 </script>
@@ -180,6 +194,7 @@
         display: flex;
        flex-direction: row;
         font-size: 60px;
+        text-align: justify;
     }
 
     .text-up::after{

@@ -38,7 +38,8 @@
             color="#FFC126"
               rounded 
               class="btn-portofolio mt-10 ml-1"
-              href="https://drive.google.com/file/d/1p7F4g0FJAuFgv9cUy9T6ayOGzYm3asaD/view?usp=sharing"
+              @click="GdriveLink()"
+              
               >Click here to download my CV and Portfolio</v-btn>
         
             </v-col>
@@ -57,6 +58,11 @@
         navPorto,
            cardPorto
         },
+    methods: {
+        GdriveLink:function(){
+            window.open("https://drive.google.com/file/d/1p7F4g0FJAuFgv9cUy9T6ayOGzYm3asaD/view?usp=sharing")
+        }
+    },
 
     }
 </script>

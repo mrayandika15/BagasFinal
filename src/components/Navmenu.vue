@@ -45,7 +45,7 @@
                 <v-btn 
                 text 
                 color="white"  
-                to="/" 
+                href="http://www.bagasema.com/"
                 active-class="no-active">
                 Blog
             </v-btn> 

@@ -37,7 +37,9 @@
   
         <v-card
         elevation="0" 
-        class="card-porto card-design" width="350px" 
+        class="card-porto card-design" 
+        width="350px" 
+        @click="LinkDesign()"
         height="501px" 
         color="transparent"
           v-bind:class="{
@@ -128,6 +130,11 @@
         DisabledDesign: true
 
 
+      }
+    },
+    methods: {
+      LinkDesign:function(){
+        window.open("http://www.instagtam.com/the.2000j")
       }
     },
   }

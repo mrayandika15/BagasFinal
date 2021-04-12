@@ -7,13 +7,10 @@
         >
             <v-row>
                 <v-col
-                md="4"
-                offset-md="4"
                 class="insideBlogContainer"
                 >
                 <v-img
                 src="../assets/BANNER PUTIH-01 1.png"
-                
                 class="logoImage"
                 ></v-img>
                 <div class="DescBlog ml-10">
@@ -23,6 +20,7 @@
                 color="#FFC126"
                   rounded 
                   class="btn-portofolio mt-2"
+                  href="http://www.bagasema.com/"
                   >Read Here</v-btn>
                 </div>
                 </v-col>
@@ -65,6 +63,8 @@
     .insideBlogContainer{
         display: flex;
         flex-direction: column; 
+        justify-content: center;
+        align-items: center;
     }
     .DescBlog{
         color: #fff;
@@ -72,6 +72,8 @@
         flex-direction: column;
         position: relative;
         bottom: 60px;
+        top: 1px;
+    
     }
     .DescBlog p{
         width: 497px;

@@ -12,41 +12,42 @@
           lg="8"
           offset-lg="2"
           >
-              <v-carousel 
-              hide-delimiters
-              prev-icon="mdi-arrow-left"
-              next-icon="mdi-arrow-right"
-              height="100%"
+          <div class="content__container">
+            <v-carousel 
+            hide-delimiters
+            prev-icon="mdi-arrow-left"
+            next-icon="mdi-arrow-right"
+            height="100%"
 
+            >
+              <v-carousel-item
+                class="CarouselItem"
+                v-for="(item,i) in $store.state.kisspray"
+                :key="i"
               >
-                <v-carousel-item
-                  class="CarouselItem"
-                  v-for="(item,i) in $store.state.kisspray"
-                  :key="i"
-                >
-                <v-img
-                :src="item"
-                class="ImgCarousel"
-                ></v-img>
-              </v-carousel-item>
-              </v-carousel>
-          </v-col>
-        </v-row>
-        <v-row>
-          <v-col
-          offset-md="3"          
-          >
-            <div class="d-flex TextContainer">
-              <h2 class="white--text">KISSPRAY</h2>
-              <h2 class="orange--text ml-2">Campaign</h2>
+              <v-img
+              :src="item"
+              class="ImgCarousel"
+              ></v-img>
+            </v-carousel-item>
+            </v-carousel>
+
+            <div class="container__text">
+              <div>
+                <div class="d-flex TextContainer">
+                  <h2 class="white--text">KISSPRAY</h2>
+                  <h2 class="orange--text ml-2">Campaign</h2>
+                </div>
+                <div class="TextDesc">
+                  <p >Kispray merupakan produk cairan semprot yang dapat memudahkan penggunanya saat menyetrika. Pada produk Kispray ini terdapat kandungan yang dapat menghilangkan bau apek pada baju dan juga melindungi baju dari jamur dan bakteri. Serta memiliki varian aroma yang beragam. Selain itu juga, Kispray ini cairannya bisa digunakan untuk pengharum ruangan. Campaign ini ditujukan untuk meningkatkan awareness produk.</p>
+                </div>
+              </div>
+           
+          
             </div>
-          </v-col>
-        </v-row>
-        <v-row>
-          <v-col
-          offset-md="3"          
-          >
-          <p class="TextDesc">Kispray merupakan produk cairan semprot yang dapat memudahkan penggunanya saat menyetrika. Pada produk Kispray ini terdapat kandungan yang dapat menghilangkan bau apek pada baju dan juga melindungi baju dari jamur dan bakteri. Serta memiliki varian aroma yang beragam. Selain itu juga, Kispray ini cairannya bisa digunakan untuk pengharum ruangan. Campaign ini ditujukan untuk meningkatkan awareness produk.</p>
+            
+          </div>
+            
           </v-col>
         </v-row>
       </v-container>
@@ -86,22 +87,36 @@ export default {
     }
     .TextContainer{
       font-size: 20px;
+      position: relative;
+
     }
 
     .TextDesc{
       color: #fff;
-      width : 714px;
+      width : 614px;
       text-align: justify;
       position: relative;
-      bottom: 25px;
     }
+
+    
 
     .ImgCarousel{
       width: 614px;
       height: 404px;
       border-radius: 25px;
     }
+    .container__text{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 25px;
+      justify-content: center;
+      align-items: center;
+    }
+    .content__container{
+      display: flex;
+      flex-direction: column;
+    }
 
    
-  
 </style>
